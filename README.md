@@ -1,4 +1,4 @@
 # nomadCoder-web
 
-webpage with differnet features using HTML, CSS, Javascript
+webpage with different features using HTML, CSS, Javascript
  
