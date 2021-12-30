@@ -1,0 +1,16 @@
+body{
+    color: black;
+    background-color: beige;
+  }
+  .sizeS{
+      color: white;
+    background-color: cornflowerblue;
+  }
+  .sizeM{
+      color: white;
+    background-color: #9b59b6;
+  }
+  .sizeL{
+      color: white;
+    background-color: #f39c12;
+  }
