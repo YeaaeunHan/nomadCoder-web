@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>To-Do</title>
+    <link rel="shortcut icon" href="#" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h2>Time</h2>
+    <h2 class="js-clock">00 : 00 : 00</h2>
+        <div id="weather">
+            <span></span>
+            <span></span>
+        </div>
+    <h2 id="greeting" class="hidden"></h2>
+
+    <form id="login" class="hidden">
+        <input required
+        maxlength = "15"
+        type="text" placeholder="Your Name" />
+        <input type ="submit" value="Log in"/>
+    </form>
+    <form id="todo">
+        <input required type="text" placeholder="Write To-Do list" />
+        <input type ="submit" value="Submit"/>
+    </form>
+    <ul id="todo-list"> </ul>
+    <script src="script.js"></script>
+  </body>
+</html>
